@@ -36,7 +36,7 @@ public class CartActivity extends AppCompatActivity {
 
         totalPriceText.setText("Total: $" + String.format("%.2f", total));
 
-        //
+        /// /
         checkoutButton.setOnClickListener(v -> {
             Intent intent = new Intent(CartActivity.this, CheckoutActivity.class);
             startActivity(intent);
